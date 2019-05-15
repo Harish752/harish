@@ -1,0 +1,10 @@
+a=str(input())
+list=["hi", "enter the food you want","table for how many?","at what time food should be served"]
+print(list[0])
+print(list[1])
+b=str(input())
+print(list[2])
+c=str(input())
+print(list[3])
+d=str(input())
+print(list[0],list[1],list[2],list[3],list[4])
