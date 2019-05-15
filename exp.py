@@ -1,5 +1,4 @@
-p=int(input())
-
-q=int(input())
-
+p,q=input().split()
+p=int(p)
+q=int(q)
 print(p**q)
