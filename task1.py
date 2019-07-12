@@ -1,43 +1,10 @@
-print ("enter the values of a &b")
-
-a=str(input())
-
-b=str(input())
-
-if a.isalpha() or b.isalpha():
-
-	print("is a alphabet")
-
-print("enter the operator choice")
-
-ch=int(input())
-
-if ch == 1:
-   
-	print(a+b)
-
-elif ch == 2:
-   
-	print(a-b)
-
-elif ch == 3:
-  
-	print(a*b)
-
-elif ch == 4:
-   
-	if b == 0:
-     
-		print("infinity")
-  
-	else:
-        
-		print(a/b)    
-
-elif ch == 5:
-    
-	print(a%b)
-
-else:
-    
-	print("invalid")
+n=int(input())
+s="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+for i in range(n+1):
+    for j in range(n-i):
+        print(" ",end="")
+    print(s[:i][::-1])
+for k in range(n-1,0,-1):
+    for l in range(0,n-k):
+        print(" ",end="")
+    print(s[:k][::-1] )
