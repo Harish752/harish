@@ -1,2 +1,2 @@
-in=input()
-print(in)
+har=input()
+print(har)
