@@ -1,5 +1,5 @@
-a,b=map(int,input().split())
-c=a-b
+aa,bb=map(int,input().split())
+c=aa-bb
 if c%2==0:
     print("even")
 else:
