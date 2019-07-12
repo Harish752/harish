@@ -1,2 +1,2 @@
-a=list(map(int,input().split()[:10]))
-print(min(a))
+ab=list(map(int,input().split()[:10]))
+print(min(ab))
