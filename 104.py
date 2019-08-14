@@ -1,3 +1,3 @@
-n=input()
-k=input()
-o=n^k
+n,k=map(int,input().split())
+o=n**k
+print(o)
