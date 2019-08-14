@@ -1,7 +1,7 @@
 mm,nn=list(map(str,input().split()))
-l=len(set(mm)) 
-l1=len(set(nn))
-if l==l1:
+x=len(set(mm)) 
+y=len(set(nn))
+if x==y:
 	print ("yes") 
 else:
 	print ("no") 
