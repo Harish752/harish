@@ -1,7 +1,7 @@
 n,k=map(int,input().split())
 
-xy=[]
+g=[]
 l=list(map(int,input().split()))
-xy=(l[-k:]+l[:-k])
-for i in range(0,len(xy)):
-	print(xy[i],end=" ")
+g=(l[-k:]+l[:-k])
+for i in range(0,len(g)):
+	print(g[i],end=" ")
