@@ -1,4 +1,5 @@
 n,k=map(int,input().split())
+
 xy=[]
 l=list(map(int,input().split()))
 xy=(l[-k:]+l[:-k])
