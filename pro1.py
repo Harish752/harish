@@ -1,10 +1,10 @@
 def high(max,l):
-    t=[]
+    xy=[]
     for i in range(0,min(len(max),len(l))):
         if max[i]==l[i]:
-            t.append(l[i])
+            xy.append(l[i])
         else: break
-    return t
+    return xy
 n=int(input())
 l=[]
 for i in range(0,n):
