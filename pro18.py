@@ -1,12 +1,12 @@
 import math
-n,k=map(int,input().split())
+nn,k=map(int,input().split())
 q=a=[]
 p=s=0
-for i in range(0,n):
+for i in range(0,nn):
     d=list(map(int,input().split()))
     q.append(d) 
-if n==2: n=n+1
-for i in range(2,n):
+if nn==2: nn=nn+1
+for i in range(2,nn):
     for j in range(0,i):
         for h in range(0,i):
             if a[j][h]==1: s=s+1
