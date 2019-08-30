@@ -19,7 +19,7 @@ def checkPalindrome(str) :
         return False
   
 # Driver Code 
-str = "abccaa"
+str = str(input())
 if (checkPalindrome(str)) : 
     print ("Yes") 
 else : 
